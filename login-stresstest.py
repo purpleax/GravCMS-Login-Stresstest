@@ -101,5 +101,4 @@ if __name__ == "__main__":
     # Read the credentials from the file
     credentials = read_credentials(credentials_file)
     
-    # Simulate login for each credential with or without debug mode
-    simulate_load(credentials, login_url=args.login_url, login_page_url=args.login_page_url, debug=args.debug)
+    #
