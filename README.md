@@ -50,11 +50,11 @@ The credentials file (`credentials.txt`) should be in the format `username:passw
 
 Run the script as follows:
 
-    python3 script_name.py --login-url https://stresstest.example.com/login --login-page-url https://stresstest.fastlylab.com/login
+    python3 script_name.py --login-url https://stresstest.example.com/login --login-page-url https://stresstest.example.com/login 
 
 For debug mode:
 
-    python3 script_name.py --login-url https://stresstest.example.com/login --login-page-url https://stresstest.fastlylab.com/login --debug
+    python3 script_name.py --login-url https://stresstest.example.com/login --login-page-url https://stresstest.example.com/login  --debug
 
 ## How It Works
 
